@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fonte-principal:"Poppins", sans-serif;
+     
+    --azul-escuro: #264653;
+    --azul-claro:#2A9D8F;
+    --amarelo:#E9C46A;
+    --laranja:#F4A261;
+    --vermelho:rgb(231, 90, 90);
+    --black: black;
+}
+.corpo {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    background-color: var(--azul-escuro);
+}
+.estrutura {
+    padding: 50px;
+    margin: 60px;
+    background-color: var(--azul-claro);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    border: solid var(--black);
+}
+.campos-de-entrada {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 410px;
+    width: 300px;
+    height: 170px;
+    align-items: center;
+    background-color: var(--vermelho);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    border: solid var(--black);
+}
+.label-ano {
+    margin: 5px;
+}
+.input-ano {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+    border: solid var(--laranja);
+    border-radius: 12px;
+    background-color: var(--amarelo);
+    
+}
+.botao-calculo {
+    padding: 9px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border: solid var(--laranja);
+    border-radius: 12px;
+    background-color: var(--amarelo);
+    margin: 10px;
+}
+.resultados {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 470px;
+    padding: 15px;
+    gap: 5px;
+    justify-content: center;
+    width: 150px;
+    background-color: var(--vermelho);
+    border: solid var(--black);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+.resultado {
+    border: solid var(--laranja);
+    background-color:var(--amarelo);
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.resultado-maior-menor{
+    border: solid var(--laranja);
+    background-color: var(--amarelo);
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
